@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@600&display=swap');
+
+/* Import Do Google Fonts*/
+/* CTRL+SHIFT = Live Preview*/
+
+
+:root{
+    --cor-primaria: #082032; /* Seletor ROOT Faz Com Que As Mudanças Sejam Feitas E Todo Doc HTML De Una Vez*/
+    --cor-secundaria: #ffffff;
+    --cor-terciaria: #FF4C29;
+    --cor-hover: #2C394B;
+
+    --fonte-primaria: "Krona One", serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+
+
+
+}
+
+
+*{ /* Reset CSS */
+    margin: 0; /* As Propriedades CSS Margin São Usadas Para Criar Espaço Ao Redor Dos Elementos, 
+    Fora De Quaisquer Bordas Definidas.*/
+    
+    padding: 0; /* Padding É Basicamente Usado Para Definir O Espaço Entre O Elemento E A Borda Do Elemento*/
+
+
+}
+
+
+.cabecalho{
+    padding: 2% 0% 0% 15%;
+
+
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+    margin: 1%;
+    
+
+}
+
+
+
+.apresentacao__menu__link{
+    text-decoration: none;
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 600;
+   
+   
+    color: var(--cor-terciaria);
+   
+    
+
+
+
+
+}
+
+
+body{
+    background-color: var(--cor-primaria); /* Cor De Fundo */
+    
+    color: var(--cor-secundaria); /* Cor Da Fonte*/
+    
+    /*height: 100vh;  100vh Representa A Altura Total Da Viewport, Independentemente Do Conteúdo 
+    Na Página. Quando Você Usa 100vh Para A Altura De Um Elemento, Ele Ocupará Toda A Altura Vertical 
+    Da Tela Do Usuário E Não Será Afetado Pelo Conteúdo Ou Outros Elementos Na Página.  
+    box-sizing: border-box; */
+    
+    box-sizing: border-box;
+}
+
+.titulo-sublinhado{
+    color: var(--cor-terciaria); /* Cor Da Fonte */
+    
+    font-family: var(--fonte-secundaria); /* Estilo Do Texto E Chamada Do Import Google Fontes*/
+    
+
+
+}
+
+.apresentacao{
+    display: flex; /* Torna O Elemento Um Flex Container Automaticamente Transformando Todos 
+    Os Seus Filhos Diretos Em Flex Itens.*/
+    
+    align-items: center; /* Propriedade Especifica O Alinhamento Padrão Para Itens Dentro De Um 
+    Flexbox ou Contêiner De Grade.*/
+    
+    justify-content:space-between; /*Alinhar Elementos*/
+    
+    padding: 5% 15%; /* As Propriedades CSS Margin São Usadas Para Criar Espaço Ao Redor Dos Elementos, 
+    Fora De Quaisquer Bordas Definidas.*/
+
+    gap: 10px;
+}
+
+.apresentacao__conteudo{
+    width: 50%; /* Propriedade Define A Largura De Um Elemento.*/
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.apresentacao__conteudo__titulo{
+    font-size: 2.25rem; /* Tamanho Da Fonte*/
+    
+    font-family: var(--fonte-secundaria); /* Estilo Do Texto E Chamada Do Import Google Fontes*/
+    
+    margin: 2% 
+
+    
+}
+
+.apresentacao__conteudo__paragrafo{
+    font-size: 1.5rem;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-secundaria);
+    margin: 2%;
+    list-style-type:none;
+    
+        
+}
+
+.apresentacao__links{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+
+
+}
+
+.apresentacao__links__navegacao{
+    
+    
+    width: 50%;
+    
+    text-align: center; /* Defina O Alinhamento Do Texto Para Diferentes Elementos */
+    
+    border-radius: 8px; /* Propriedade Define O Raio Dos Cantos Do Elemento.
+    Esta Propriedade Permite Que Você Adicione Cantos Arredondados Aos Elementos */
+    
+    font-size: 1.5rem;
+    
+    padding: 15px 50px;
+    
+    text-decoration: none; /* Essa Propriedade Remove O Sublinhado Que Vêm De Fábrica CSS. */
+    
+    color: var(--cor-secundaria);
+    
+    font-family: var(--fonte-secundaria);
+    
+    font-weight: 600; /* Propriedade Define A Espessura Dos Caracteres Finos No Texto Que Devem Ser Exibidos */
+
+    border: 2px solid var(--cor-terciaria); /*As propriedades de borda CSS permitem que você especifique o 
+    estilo, a largura e a cor da borda de um elemento.*/
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 16px;
+
+    
+}
+
+
+.apresentacao__links__subtitulo{
+    font-family: var(--fonte-secundaria);
+    font-weight: 400;
+    font-size: 1.5rem;
+    
+
+
+}
+
+
+.apresentacao__links__navegacao:hover{
+    background-color: var(--cor-hover);
+    padding: 8%;
+
+
+
+
+}
+
+.rodape{
+
+    background-color: var(--cor-terciaria);
+    color: var(--cor-primaria);
+    text-align: center;
+    padding: 24px;
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 400;
+
+}
+
+
+.imagem-autor{
+    
+    width: 50%;
+    height: 50%;
+    border-radius: 50px;
+    margin: 3% 6% 25% 10%;
+    border: 3px solid var(--cor-terciaria);
+
+
+}
+
+
+
+.imagem-autor-about{
+    width: 50%;
+    height: 50%;
+    border-radius: 50px;
+    margin: 3% 6% 25% 10%;
+    border: 3px solid var(--cor-terciaria);
+
+
+
+
+}
+
+
+
+.lista-certificado{
+    
+    font-size: 1.5rem;
+    
+    text-decoration:underline;
+
+    color: var(--cor-secundaria);
+
+    
+
+    
+    
+}
+
+
+a.apresentacao__menu__link:hover{
+    color: var(--cor-secundaria);
+
+
+}
+    
+
+
+
+
+
+
+a.lista-certificado:hover{
+    color: var(--cor-terciaria);
+
+
+
+
+}
+
+
+
+@media (max-widt: 1200px){
+    .cabecalho{
+        padding: 10%;
+
+
+    }
+    
+    .cabecalho__menu{
+
+        justify-content: center;
+
+
+    }
+    
+    
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .apresentacao__conteudo{
+        width: auto;
+
+    }
+
+}
+    
+
+
