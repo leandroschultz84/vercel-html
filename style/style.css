@@ -204,8 +204,8 @@ body{
 
 .imagem-autor{
     
-    width: 50%;
-    height: 50%;
+    width: 40%;
+    
     border-radius: 50px;
     margin: 3% 6% 25% 10%;
     border: 3px solid var(--cor-terciaria);
@@ -216,8 +216,9 @@ body{
 
 
 .imagem-autor-about{
-    width: 50%;
-    height: 50%;
+   
+    width: 40%;
+    
     border-radius: 50px;
     margin: 3% 6% 25% 10%;
     border: 3px solid var(--cor-terciaria);
