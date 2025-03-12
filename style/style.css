@@ -266,6 +266,16 @@ a.lista-certificado:hover{
 }
 
 
+.certicado-imagem{
+
+    width: 50%;
+    
+    border: 3px solid var(--cor-terciaria);
+    display: flex;
+    justify-self: center;
+    margin: 5%;
+    
+}
 
 @media (max-widt: 1200px){
     .cabecalho{
