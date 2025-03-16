@@ -210,15 +210,12 @@ body{
     margin: 3% 6% 25% 10%;
     border: 3px solid var(--cor-terciaria);
 
-    height: auto;
-    display: block;
 
 }
 
 
 
 .imagem-autor-about{
-    
     width: 40%;
     
     border-radius: 50px;
@@ -272,7 +269,7 @@ a.lista-certificado:hover{
 
       
     width: 50%;
-    
+    height: 50%;
     border: 3px solid var(--cor-terciaria);
     display: flex;
     justify-self: center;
@@ -281,7 +278,7 @@ a.lista-certificado:hover{
 }
 
 
-@media (max-widt: 1110px){
+@media (max-widt: 1200px){
     .cabecalho{
         padding: 10%;
 
@@ -305,9 +302,6 @@ a.lista-certificado:hover{
         width: auto;
 
     }
-
-   
-
 
 }
     
