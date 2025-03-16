@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 
@@ -7,4 +8,15 @@
     "rewrites": [
       { "source": "/(.*)", "destination": "/" }
     ]
+=======
+
+
+
+
+
+{
+    "rewrites": [
+      { "source": "/(.*)", "destination": "/" }
+    ]
+>>>>>>> 5e778a742f5f3e2751c3a4aac0dcf51656d6f084
   }
